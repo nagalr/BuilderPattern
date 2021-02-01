@@ -14,7 +14,7 @@ public class BankAccount {
     private double interestRate;
 
     private BankAccount() {
-        //Constructor is now private.
+        //Constructor is private.
     }
 
     // static-inner-class implements the Builder-pattern
