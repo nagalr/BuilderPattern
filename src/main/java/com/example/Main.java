@@ -9,6 +9,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // creating two BankAccount Objects using the Builder-pattern
+        // the builder inner-class.
         BankAccount account = new BankAccount.Builder(123L)
                 .withOwner("Merge")
                 .atBranch("SpringField")
