@@ -17,7 +17,7 @@ public class BankAccount {
         //Constructor is now private.
     }
 
-    // inner-class implements the Builder-pattern
+    // static-inner-class implements the Builder-pattern
     public static class Builder {
         private long accountNumber; //This is important, so we'll pass it to the constructor
         private String owner;
